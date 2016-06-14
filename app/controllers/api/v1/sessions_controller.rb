@@ -1,7 +1,7 @@
  module Api 
       module V1       
 
-        class Api::V1::RegistrationsController < Api::V1::BaseController
+        class Api::V1::SessionsController < Api::V1::BaseController
 
           # POST /users
           # POST /users.json
@@ -12,7 +12,7 @@
             @user.save
             render json: @user
           else
-            render json: {:message "Invalid username password"}
+            render json: {message: "Invalid username password"}
           end
           end
 
