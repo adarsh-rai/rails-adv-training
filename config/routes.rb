@@ -13,10 +13,11 @@ Rails.application.routes.draw do
         end
       end
 
-
       resources :users
     end
   end 
+
+  resources :users
 
   root "welcome#index"
 end

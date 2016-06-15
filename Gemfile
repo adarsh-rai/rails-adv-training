@@ -10,6 +10,11 @@ gem 'spring', :group => :development
 
 gem 'sqlite3'
 
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+gem 'coffee-script', '~> 2.4', '>= 2.4.1'
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'sass-rails', '>= 3.2'
+
 
 
 # To use ActiveModel has_secure_password
@@ -28,3 +33,6 @@ gem 'sqlite3'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 gem 'bcrypt', '~> 3.1.7'
 gem 'active_model_serializers'
+
+# gem 'therubyracer'
+# gem 'uglifier'
